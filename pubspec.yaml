@@ -1,5 +1,5 @@
 name: folio_reader
-description: Folio — Красивая читалка книг с книжной полкой
+description: Folio -- Beautiful book reader with FB2, EPUB, PDF, TXT support
 version: 1.0.0+1
 
 environment:
@@ -9,12 +9,11 @@ dependencies:
   flutter:
     sdk: flutter
   provider: ^6.1.1
-  shared_preferences: ^2.2.2
   google_fonts: ^6.1.0
-  percent_indicator: ^4.2.3
-  flutter_rating_bar: ^4.0.1
-  animated_text_kit: ^4.2.2
-  shimmer: ^3.0.0
+  xml: ^6.5.0
+  archive: ^3.6.1
+  html: ^0.15.4
+  shared_preferences: ^2.2.2
 
 dev_dependencies:
   flutter_test:
@@ -23,5 +22,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  assets:
-    - assets/books/
